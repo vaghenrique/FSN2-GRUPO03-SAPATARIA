@@ -3326,4 +3326,43 @@ input, select, textarea {
 				padding: 0 1.25em;
 			}
 
+		
 		}
+		
+		#menu {
+			background-color: #2d2d2d;
+			color: #fff;
+			padding: 20px;
+			width: 250px;
+			border-radius: 8px;  /* Bordas arredondadas para um visual mais suave */
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra suave para dar profundidade */
+			transition: transform 0.3s ease;  /* Adicionando transição suave ao menu */
+		}
+		
+		#menu:hover {
+			transform: translateX(10px); 
+		}
+		
+		#menu a {
+			color: #fff;
+			padding: 12px;
+			font-size: 18px;
+			display: block;
+			text-decoration: none;
+			border-bottom: 1px solid #444;  /* Linha separadora entre os itens */
+			transition: color 0.3s ease, background-color 0.3s ease;
+		}
+		
+		#menu a:hover {
+			color: #00e1ff;
+			background-color: #444;  
+			padding-left: 16px;  
+		}
+		
+		#menu a:focus {
+			outline: none;  /* Remove o contorno padrão quando o link está em foco */
+			box-shadow: 0 0 5px 2px rgba(255, 102, 0, 0.5);  /* Adiciona destaque ao link quando em foco */
+		}
+		
+		
+		
