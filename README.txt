@@ -1,7 +1,7 @@
+# FSN2-GRUPO03-SAPATARIA
+# Projeto integrador-Módulo básico
 
- # Projeto integrador - Módulo básico
-
- ## Grupo 3 - Loja de Sapatos
+ ## Grupo 3-Loja de Sapatos
 
 **Equipe**
 - Antonio Mikael Vasconcelos Aguiar (Líder)
